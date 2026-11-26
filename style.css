@@ -912,3 +912,167 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+.footer-wrap {
+  background: #fdf9f3;
+  padding: 80px 20px 40px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid #ece6dc;
+}
+
+.footer-brand {
+  width: 24%;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 16px;
+}
+
+.footer-logo img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666666;
+}
+
+.footer-col {
+  width: 16%;
+}
+
+.footer-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1.3;
+  margin-bottom: 22px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.footer-cta {
+  position: relative;
+  width: 34%;
+  min-height: 310px;
+  padding: 36px 28px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ff9900;
+}
+
+.footer-cta-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 0;
+}
+
+.footer-cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-cta-title {
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 24px;
+}
+
+.footer-btn-dark {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  background: #111111;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.footer-btn-white {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  background: #ffffff;
+  color: #111111;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 28px;
+}
+
+.footer-copy {
+  font-size: 13px;
+  color: #666666;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-box {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  background: #111111;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
