@@ -434,3 +434,132 @@ body {
   object-fit: cover;
   display: block;
 }
+.video-section {
+  position: relative;
+  padding: 70px 20px 80px;
+  background: #ffffff;
+}
+
+.video-top-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 430px;
+  background: #ffd6a5;
+  z-index: 0;
+}
+
+.video-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.video-tag {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #333333;
+  margin-bottom: 14px;
+}
+
+.video-title {
+  max-width: 680px;
+  margin: 0 auto 28px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #111111;
+}
+
+.video-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 44px;
+}
+
+.btn-dark {
+  padding: 15px 26px;
+  background: #111111;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-white {
+  padding: 15px 26px;
+  background: #ffffff;
+  color: #111111;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.video-box {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #eae4dc;
+  margin-bottom: 50px;
+}
+
+.video-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  color: #ff9900;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4px;
+}
+
+.video-bottom-cols {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.col-item {
+  width: 50%;
+}
+
+.col-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 12px;
+}
+
+.col-text {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #666666;
+}
